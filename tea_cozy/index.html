@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tea Cozy | Fresh, Organic, Blanket Warm Tea</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  </head>
+  <body>
+
+    <!--Header section-->
+    <header class="flex-container">
+
+
+      <!--'Tea Cozy' logo-->
+      <img src="resources\imgs\img-tea-cozy-logo.png" alt="">
+
+      <nav>
+        <a href="#mission">Mission</a>
+        <a href="#products">Featured Tea</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </header>
+
+    <!--Main container for website content. Flexbox-->
+    <main>
+      <section id="mission" class="flex-container">
+        <div class="banner">
+
+          <h2>Our Mission</h2>
+          <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+
+        </div>
+      </section>
+
+
+      <!--Product selection section. 'products' is a flexbox-->
+      <section id="products">
+
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at the Tea Cozy?</h4>
+
+        <div class="flex-container products">
+
+          <!-- No need to make 'items' column flexboxes. 'block' display ensures img and description stack-->
+
+          <div class="item">
+
+            <img src="resources\imgs\img-berryblitz.jpg" alt="">
+            <span>Fall Berry Blitz Tea</span>
+
+          </div>
+
+          <div class="item">
+
+            <img src="resources\imgs\img-spiced-rum.jpg" alt="">
+            <span>Spiced Rum Tea</span>
+
+          </div>
+
+          <div class="item">
+
+            <img src="resources\imgs\img-donut.jpg" alt="">
+            <span>Seasonal Donuts</span>
+
+          </div>
+
+          <div class="item">
+
+            <img src="resources\imgs\img-myrtle-ave.jpg" alt="">
+            <span>Myrtle Ave Tea</span>
+
+          </div>
+
+          <div class="item">
+
+            <img src="resources\imgs\img-bedford-bizarre.jpg" alt="">
+            <span>Bedford Bizzare Tea</span>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Locations scetion. Flexbox necesary to center and align 'location' boxes.-->
+
+      <section id="locations">
+
+        <h2>Locations</h2>
+
+        <div class="flex-container locations">
+
+        <!--display block works very similarly for the 'location' boxes. What advantage does the flexbox add?-->
+        <div class="location">
+          <h3>
+            <!--clickable Google Maps link for directions-->
+            <a href="https://goo.gl/maps/mNPkL4x2LLP2">Downtown</a>
+          </h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+
+        <div class="location">
+          <h3>
+            <!--clickable Google Maps link for directions-->
+            <a href="https://goo.gl/maps/aBvTMX1Dynk">East Bayside</a>
+          </h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+
+        <div class="location">
+          <h3>
+            <!--clickable Google Maps link for directions-->
+            <a href="https://goo.gl/maps/shAedcqao4x">Oakdale</a>
+          </h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div>
+      </section>
+
+      <!--address seems more semantic here. remember to set font-style to 'normal' as address renders 'italic' as default-->
+
+      <address id="contact">
+
+        <h2>Tea Cozy</h2>
+
+        <!--clickable e-mail and telephone links-->
+        <h5>
+          <a href="mailto:contact@theteacozy.com">contact@theteacozy.com</a>
+        </h5>
+        <h5>
+          <a href="tel:9175558904">917-555-8904</a>
+        </h5>
+
+      </address>
+    </main>
+
+    <footer>
+
+      <small>&#169 copyright The Tea Cozy 2017</small>
+
+    </footer>
+  </body>
+</html>
